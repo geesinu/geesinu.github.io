@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What is JavaScript</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    position: relative; 
+  }
+  .affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+   position: relative;
+   top: 50px;
+  }
+  #section1 {padding-top:30px;height:500px;color: black; background-color: LightGray;}
+  #section2 {padding-top:30px;height:500px;color: black; background-color: LightGray;}
+  #section3 {padding-top:30px;height:500px;color: black; background-color: LightGray;}
+  #section4 {padding-top:30px;height:500px;color: black; background-color: LightGray;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div style="font-family:monospace">
+<div class="container-fluid" style="background-color:rgb(96, 130, 193) ;color:rgb(255, 255, 255);height:125px;">
+  <div style="text-align: start;"> 
+   <h1 style="color: rgb(255, 207, 39)">
+      <img src="JS_picture.png"  class="img-thumbnail" alt="Cinque Terre" width="90" height="90"> 
+      JavaScript 
+   </h1>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="125">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span>                       
+        </button>
+      <a class="navbar-brand" href="#" ><code>list.section</code></a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section_1</a></li>
+          <li><a href="#section2">Section_2</a></li>
+          <li><a href="#section3">Section_3</a></li>
+          <li><a href="#section4">Section_4</a></li>
+          <li><a href="./csharp.html">Home</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+
+ <div id="section1" class="container-fluid">
+   <h1>Section_1_Histroy</h1>
+   <p>Netscape corporation, which released a more polished browser, Netscape Navigator, in 1994.
+    In 1995, Netscape decided to add a scripting language to Navigator then developed LiveScript and three months later the name was changed to JavaScript
+   </p>
+   <p>In 1995, Internet Explorer is introduced by Microsoft around the world. Then reverse engineered the Navigator interpreter to create its own, Jscript.
+    However, there was significant differences made it difficult for developers to make their websites work well in both browsers.
+   </p>
+   <p>In 2000s, Microsoft dominate World Wide Web market then Jscript became the actual standard for client-side scripting on the Web.
+   </p>
+   <p>However, debut of Firefox browser based on JavaScript, take huge market share from Internet Explorer. 
+     Then Ajax by Jesse James Garrett in 2005 and Chrome browser by Google in 2008, which is also based on JavaScript, make the start point of JavaScript to settle down as a mature language worldwide.
+   </p>
+ </div>
+ <div id="section2" class="container-fluid">
+   <h1>Section_2_Purpose</h1>
+   <p>JavaScript is interpreter language and also script language for Web.</p>
+   <p>Program written by JavaScript is called “script” and does not require compile</p>
+   <p>JavaScript is usually used in order to make HTML webpage more user-friendly by adding functions to it.</p>
+   <p>It is a very strong and popular language to develop web.</p>
+ </div>
+ <div id="section3" class="container-fluid">
+   <h1>Section_3_Tutorial_How_to_enable_JS_in_your_browser</h1>
+   <p>"Google Chrome"</p>
+   <p>1. On the web browser menu click on the "Customize and control Google Chrome" and select "Settings".</p>
+   <p>2. In the "Settings" section click on the "Show advanced settings..."</p>
+   <p>3. Under the the "Privacy" click on the "Content settings...".</p>
+   <p>4. When the dialog window opens, look for the "JavaScript" section and select "Allow all sites to run JavaScript (recommended)".</p>
+   <p>5. Click on the "OK" button to close it.</p>
+   <p>6. Close the "Settings" tab.</p>
+   <p>7. Click on the "Reload this page" button of the web browser to refresh the page.</p>
+   <p></p>
+ </div>
+ <div id="section4" class="container-fluid">
+  <h1>Section_4_Introduction_of_"Hello_World"</h1>
+  <p>The "script" tag</p>
+  <p>
+    <img src="hwJS.png", class="img-thumbnail">
+  </p>
+  <p>reference: https://www.w3schools.com, https://javascript.info, https://getbootstrap.com/2.3.2/</p>
+ </div>
+
+ </div>
+
+</body>
+</html>

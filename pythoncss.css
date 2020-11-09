@@ -1,0 +1,139 @@
+body {
+    background-color: #646464;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(100, 98, 98);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffe387;
+    border-style: solid;
+    border-color: #306998;
+    border-width: 15px ;
+    border-right-width: 300px;
+    border-left-width: 300px;
+}
+.p1 {
+    font-size: 17px;
+    color: black;
+    padding: 0.5rem;
+    border-width: 0.1rem;
+    
+}
+
+h4 {
+
+    color: #ffe387;
+    text-decoration: underline #306998;
+}
+
+.h41 {
+    color: #ffe387;
+    text-decoration: underline #306998;
+    margin: 1.5rem;
+}
+
+
+.li1 {
+
+    color: black;
+}
+
+h5  {
+    
+    color: black;
+    text-decoration: underline black;
+   
+}
+
+.p2 {
+
+    margin: 1.5rem;
+    font-size: 25px;
+    color: #ffe387;
+    text-decoration: underline #306998;
+
+
+}
+
+.ul1 {
+
+    color: black;
+    font-size: 16px;
+}
+
+.img1 {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 1.5rem;
+}
+    
+
+
+
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 25px;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+
+
+
+    }
+  }
+
+
+
+
+
+.p4 {
+
+    font-size: 17px;
+    margin: 1.5rem;
+}
+
+.hello {
+
+    font-size: 17px;
+    margin: 0.5rem;
+}
+
+.a1 {
+
+    font-size: 17px;
+    color: lightblue;
+    margin: 0.5rem;
+}
+
+.a2 {
+
+    font-size: 17px;
+    margin: 0.5rem;
+    color: black
+
+
+}
+
+.col-md-4 {
+
+    border: white;
+    border-style: solid;
+    
+}
+
+.ul2 {
+
+    color: black;
+    font-size: 16px;
+    margin: 1.5rem;
+
+}
+
