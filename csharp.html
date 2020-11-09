@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to C#</title>
+    <meta name="description" content="Flexbox layout for Bootstrap 4 with a fixed navbar, sidebar, header full height and remaining width content. This is a 2 column layout with navbar and sidebar that use the affix to become sticky after scroll. The sidebar scrollspy has sub menus. Fancy navbar dropdown with big icons and modal with form. Multi-column responsive footer with social icons via Fontawesome 5. Also includes example of using Cards and Tabs." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/csstyles.css" />
+  </head>
+
+  <body data-spy="scroll" data-target="#sidemenu" data-offset="30">
+    <div class="jumbotron mb-0 d-flex align-items-center flex-column justify-content-center text-center min-100" style="background-image: url(./image/codeisfun.jpg);" id="header">
+    <h1 class="display-3">Welcome to C#<em>!</em></h1>
+    <p>Pgold formative</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="https://www.microsoft.com/en-us/download/details.aspx?id=7029" role="button">Download Here!</a>
+    </p>
+</div>
+<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top" >
+    <div class="container">
+        <a class="navbar-brand" href="#"><i class="fas fa-battery-quarter fa-fw fa-2x"></i>
+ C#</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Python</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">C/C++</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-exclamation-circle"></i>
+                    </a>
+                    <div class="dropdown-menu w-auto shadow mt-2 mx-lg-2 p-0 mx-0" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item d-flex flex-nowrap align-items-center px-0 py-3" href="#">
+                          <div class="flex-shrink-1 text-center px-3"><i class="fas fa-poo fa-fw fa-2x"></i></div>
+                          <div class="pl-0 pr-4">
+                              <h5 class="mb-0">YOU</h5>
+                              >>>
+                          </div>
+                      </a>
+                      <a class="dropdown-item d-flex flex-nowrap align-items-center px-0 py-3" href="#">
+                          <div class="flex-shrink-1 text-center px-3"><i class="far fa-dot-circle fa-fw fa-2x"></i></div>
+                          <div class="pl-0 pr-4">
+                              <h5 class="mb-0">ARE</h5>
+                              >>>
+                          </div>
+                      </a>
+                      <a class="dropdown-item d-flex flex-nowrap align-items-center px-0 py-3" href="#">
+                          <div class="flex-shrink-1 text-center px-3"><i class="far fa-arrow-alt-circle-right fa-fw fa-2x"></i></div>
+                          <div class="pl-0 pr-4">
+                              <h5 class="mb-0">HACKED</h5>
+                              TEEHEE
+                          </div>
+                      </a>
+                    </div>
+                  </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container mt-4" id="content">
+    <div class="row h-100 my-5">
+        <aside class="col-md-3 mt-5">
+            <div class="alert alert-secondary">Don't judge my page, it's only my first time XD.</div>
+            <div class="mt-4 mb-3 pt-4 sticky-top" id="sidemenu">
+                <div class="pt-5">
+                    <ul class="nav nav-pills flex-md-column flex-row justify-content-between bg-light">
+                    <li class="nav-item"><a href="#sec1" class="nav-link active">What is C#</a></li>
+                    <li class="nav-item"><a href="#sec2" class="nav-link">C# for game development</a></li>
+                    <li class="nav-item"><a href="#sec3" class="nav-link">Noteworthy</a></li>
+                    <li class="nav-item">
+                        <a href="#sec4" class="nav-link">Why you should learn C#</a>
+                        <ul class="nav flex-md-column small d-none d-md-flex">
+                            <li class="nav-item"><a href="#sec4a" class="nav-link">C# comes with plenty of career opportunities</a></li>
+                            <li class="nav-item"><a href="#sec4b" class="nav-link">C# is a lovable language</a></li>
+                            <li class="nav-item"><a href="#sec4c" class="nav-link">C# can save you time</a></li>
+                            <li class="nav-item"><a href="#sec4d" class="nav-link">There’s a large community—very large</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </aside>
+        <main class="col py-5">
+            <div class="row">
+                <div class="col">
+                    <ul class="nav nav-tabs small" role="tablist">
+                        <li class="nav-item"><a class="nav-link text-uppercase active" data-toggle="tab" href="#tab1" role="tab">Home</a></li>
+                        <li class="nav-item ml-auto"><a class="nav-link text-uppercase" data-toggle="tab" href="#tab2" role="tab">Facts</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase" data-toggle="tab" href="#tab3" role="tab">Language Popularity Ranking</a></li>
+                    </ul>
+                    <div class="tab-content py-3">
+                        <div class="tab-pane active" id="tab1" role="tabpanel">
+                            <p class="lead text-center mb-3">Your coding journey starts here</p>
+                            
+                            <span class="anchor" id="sec1"></span>
+                            <h4>What is C#</h4>
+                            <a href=""></a>
+                            <p>C# is a modern, general-purpose programming language that can be used to perform a wide range of tasks and objectives
+                            that span over a variety of professions. C# is primarily used on the Windows .NET framework, although it can be applied
+                            to an open source platform. This highly versatile programming language is an object-oriented programming language
+                            (OOP)—which isn’t very common—and fairly new to the game, yet already a reliable <a href="https://pypl.github.io/PYPL.html">crowd pleaser</a>.</p>
+                            
+                            <span class="anchor" id="sec2"></span>
+                            <h4>C# for Game Development</h4>
+                            
+                            <p>C# is widely-used to create games using the Unity game engine, which is the most popular game engine today. More than a
+                            third of top games are made with Unity, and there are approximately 770 million active users of games created using the
+                            Unity engine. Unity is also used for VR, with 90% of all Samsung Gear and 53% of all Oculus Rift VR games developed
+                            using Unity.
+                            
+                            C# is a very popular tool for creating these applications, and so makes a great choice for any programmer hoping to
+                            break into the game development industry, or for anyone interested in virtual reality.</p>
+
+                            <span class="anchor" id="sec3"></span>
+                            <h4>Noteworthy</h4>
+                            <p>In the beginning, C# was originally titled COOL, a clever acronym that stood for “C-like Object Oriented Language.”
+                            Unfortunately, Microsoft was unable to hang onto the fun name for reasons having to do with trademark law.
+                            C# was originally designed to rival Java. Judging by the quick rise to popularity and the positive response from both
+                            new and seasoned developers, it’s safe to say that goal has been achieved.
+                            </p>
+                            
+                            <hr>
+
+                            <span class="anchor" id="sec4"></span>
+                            <h4>why you should learn C#</h4>
+                            <p>No doubt you’ve found programming languages that offer their own set of advantages, maybe even a few of the same
+                            advantages of using C#. There are comparable languages out there, like Python, that also provide simplicity and other
+                            benefits. Why should you choose to learn C# instead of an alternative?</p>
+                                
+                            <div class="pl-4">
+                                <span class="anchor" id="sec4a"></span>
+                                <h6>C# comes with plenty of career opportunities</h6>
+                                <p>
+                                As indie game development continues to rise and more and more websites are built on the ASP.NET framework, experts
+                                predict there will be no shortage of career opportunities for C#-savvy developers. Whether you want to design websites,
+                                build desktop applications, or create addicting games, you won’t have a difficult time finding the perfect job that
+                                lists C# as a requirement for the position.
+                                The future looks bright
+                                
+                                With a growing interest in learning C# and a foundation rooted deep within the Microsoft platform, the future looks
+                                bright for this particular programming language. Because of its popularity, versatility and existing creations, it’s
+                                safe to assume that Microsoft will give continual attention to keeping the language up to date and relevant.
+                                </p>
+                                <br>
+                                
+                                <span class="anchor" id="sec4b"></span>
+                                <h6>C# is a lovable language</h6>
+                                <p>According to a recent Stack Overflow survey, programmers agree that C# is among the most loveable programming languages
+                                available today—right behind Python. So, if you’re sick and tired of dealing with more complicated languages, or you’re
+                                apprehensive about committing to a job in programming, consider switching paths to focus on C# for a more satisfying
+                                process.</p>
+                                <br>
+
+                                <span class="anchor" id="sec4c"></span>
+                                <h6>C# can save you time</h6>
+                                <p>Perhaps the greatest advantage is how much time you can save by using C# instead of a different programming language.
+                                Being that C# is statically typed and easy to read, users can expect to spend less time scouring their scripts for tiny
+                                errors that disrupt the function of the application.
+                                
+                                C# also emphasizes simplicity and efficiency, so programmers can spend less time writing complicated stacks of code that
+                                are repeatedly used throughout the project. Top it all off with an extensive memory bank and you’ve got a time-effective
+                                language that can easily reduce labor hours and help you meet tight deadlines without tossing back that third cup of
+                                coffee at 2:00am.</p>
+                                <br>
+
+                                <span class="anchor" id="sec4d"></span>
+                                <h6>There’s a large community—very large</h6>
+                                <p>In the world of coding and programming, the importance of a helpful community on which you can depend simply can’t be
+                                overstated. Programming languages aren’t a platform or service with a dedicated help line or convenient IT support.
+                                Programmers must rely on the support of others in the same field who have experienced the same roadblocks and
+                                frustrations.
+                                
+                                One such community of helpful programming experts can be found on StackOverflow. Because this Q&A site was constructed
+                                in C#, it’s no surprise that C# developers make up a massive portion of the community where you can go to ask, answer,
+                                brainstorm, or vent.
+                                
+                                If you prefer to collaborate with like-minded individuals face-to-face, C# also has an extensive community on
+                                Meetup.com, where members can join both online and IRL discussions that are scheduled at random or on a consistent
+                                basis.</p>
+                            </div>
+                            
+                            <hr>
+                            
+
+                        </div>
+                        <div class="tab-pane" id="tab2" role="tabpanel">
+                            <div class="card card-outline-primary mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">Fact#1</h3>
+                                    <p class="card-text">
+                                        The name of the C Sharp language is stimulated by the musical notation. Here sharp, represent that the that the written
+                                        note should be made a semitone higher in pitch.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-outline-primary mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">Fact#2</h3>
+                                    <p class="card-text">
+                                        Microsoft first time use the name C# in 1988.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-outline-primary mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">Fact#3</h3>
+                                    <p class="card-text">
+                                        The syntax of C# language is similar to the C-style family like Java, C, C++.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-outline-primary mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">Fact#4</h3>
+                                    <p class="card-text">
+                                        C# language is suitable for writing applications for embedded systems.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-outline-primary mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">Fact#5</h3>
+                                    <p class="card-text">C# language contains highest class that supports Generics and Templates.</p>
+                                </div>
+                            </div>
+                            <div class="card card-outline-primary mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">Fact#6</h3>
+                                    <p class="card-text">
+                                        C# language is good for developing games. It is also used by Unity(the majority leader in commercial game engines) to
+                                        develop games.
+                                    </p>
+                                    <a href="#" class="btn btn-outline-secondary">Back to top</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab3" role="tabpanel">
+                            <div class="table-responsive">
+                                <table class="table table-hover table-bordered w-auto">
+                              <thead>
+                                <tr>
+                                  <th class="w-25">Rank</th>
+                                  <th class="w-25">Laguage</th>
+                                  <th class="w-50">Share</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Python</td>
+                                  <td>30.8 %</td>
+                                </tr>
+                                <tr>
+                                  <td>2</td>
+                                  <td>Java</td>
+                                  <td>16.79 %</td>
+                                </tr>
+                                <tr>
+                                  <td>3</td>
+                                  <td>Java Script</td>
+                                  <td>8.37 %</td>
+                                </tr>
+                                <tr>
+                                  <td>4</td>
+                                  <td>C#</td>
+                                  <td>6.42 %</td>
+                                </tr>
+                                <tr>
+                                  <td>5</td>
+                                  <td>PHP</td>
+                                  <td>5.92 %</td>
+                                </tr>
+                                <tr>
+                                  <td>6+</td>
+                                  <td>Others</td>
+                                  <td>31.7 %</td>
+                                </tr>
+                                <tr>
+                                    <td>what is your</td>
+                                    <td>fav language?</td>
+                                    <td><input class="form-control" type="text"></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card bg-faded border-0 mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Durham University</h3>
+                            <p class="card-text"></p>
+                            <a href="https://www.dur.ac.uk/" class="btn btn-outline-secondary">Press</a>
+                        </div>
+                    </div>
+                    <div class="card bg-faded border-0 mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Youtube</h3>
+                            <p class="card-text">YT = procrastinate </p>
+                            <a href="https://www.youtube.com/" class="btn btn-outline-secondary">me</a>
+                        </div>
+                    </div>
+                    <div class="card bg-faded border-0 mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Google </i></h3>
+                            <p class="card-text">The geniric search engine</i></p>
+                            <a href="https://www.google.com/" class="btn btn-outline-secondary">Please!</a>
+                        </div>
+                    </div>
+                    <div class="card bg-faded border-0 mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Bootstrap</h3>
+                            <p class="card-text">A Complete Guide to Bootstrap 4</p>
+                            <a href="http://bootstrap.themes.guide/how-to.html" class="btn btn-outline-secondary">Go</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<footer class="bg-light text-dark py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 pl-0">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="#" class="nav-link">Thank</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">For</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">This</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Back</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 pl-0">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="#" class="nav-link">You</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Visiting</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Page</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">To TOP</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 ml-auto text-right">
+                <small class="text-uppercase">Connect on social media</small>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item"><a href="https://www.pinterest.com/search/pins/?rs=ac&len=2&q=japanese%20food&eq=japanese&etslf=5865" class="nav-link pr-0"><i class="fab fa-pinterest fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="https://twitter.com/durham_uni" class="nav-link pr-0"><i class="fab fa-twitter fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="https://www.instagram.com/durhamuniversity/" class="nav-link pr-0"><i class="fab fa-instagram fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="https://www.facebook.com/durhamuniversity" class="nav-link pr-0"><i class="fab fa-facebook fa-lg"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-12 text-right small">
+                @2020 PGOLDG4
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    <!--scripts loaded here-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
